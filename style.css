@@ -81,7 +81,7 @@ body{
   position:relative;
 }
 
-.glow{
+.glow{transition:all .8s ease;
   position:absolute;
   inset:-80px;
   border-radius:50%;
@@ -92,7 +92,7 @@ body{
   filter:blur(60px);
 }
 
-.planet-image{
+.planet-image{transition:all .6s ease;
   width:750px;
   height:750px;
   object-fit:cover;
